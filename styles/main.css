@@ -73,10 +73,6 @@
     align-items: center;
 }
 
-.hideme {
-    display: none;
-}
-
 /* main styles */
 main {
     max-width: 1140px;
@@ -306,36 +302,4 @@ footer textarea {
 
 footer textarea {
     height: 180px;
-}
-
-
-
-/* --------------- RESPONSIVE 576PX --------------- */
-@media screen and (max-width: 576px) {
-
-    nav,
-    nav ul,
-    footer,
-    .aboutme-columns,
-    .skillcard-wrapper,
-    .resume-wrapper {
-        flex-direction: column;
-    }
-
-    .footer-area, 
-    .aboutme-area {
-        padding: 10px;
-    }
-
-    .footer-block {
-        width: 80%;
-    }
-}
-
-/* --------------- RESPONSIVE 992PX --------------- */
-@media screen and (min-width: 577px) and (max-width: 992px) {
-
-    /* .skillcard-wrapper {
-        flex-wrap: wrap;
-    } */
 }
