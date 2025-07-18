@@ -312,16 +312,30 @@ footer textarea {
 
 /* --------------- RESPONSIVE 576PX --------------- */
 @media screen and (max-width: 576px) {
+
     nav,
     nav ul,
-    .skillcard-wrapper {
+    footer,
+    .aboutme-columns,
+    .skillcard-wrapper,
+    .resume-wrapper {
         flex-direction: column;
+    }
+
+    .footer-area, 
+    .aboutme-area {
+        padding: 10px;
+    }
+
+    .footer-block {
+        width: 80%;
     }
 }
 
 /* --------------- RESPONSIVE 992PX --------------- */
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    .skillcard-wrapper {
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* .skillcard-wrapper {
         flex-wrap: wrap;
-    }
+    } */
 }
