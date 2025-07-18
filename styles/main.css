@@ -206,7 +206,7 @@ nav button:hover {
     margin: 0 100px;
 }
 
-.skillcards {
+.skillcard-wrapper {
     margin: 50px;
     display: flex;
     gap: 24px;
@@ -239,7 +239,7 @@ nav button:hover {
     margin-bottom: 30px;
 }
 
-.resume-blocks {
+.resume-wrapper {
     display: flex;
     gap: 24px;
     justify-content: space-between;
@@ -310,12 +310,18 @@ footer textarea {
 
 
 
-/* --------------- RESPONSOVE 576PX --------------- */
+/* --------------- RESPONSIVE 576PX --------------- */
 @media screen and (max-width: 576px) {
-    
+    nav,
+    nav ul,
+    .skillcard-wrapper {
+        flex-direction: column;
+    }
 }
 
-/* --------------- RESPONSOVE 992PX --------------- */
-@media screen and (min-width: 576px) and (max-width: 992) {
-    
+/* --------------- RESPONSIVE 992PX --------------- */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .skillcard-wrapper {
+        flex-wrap: wrap;
+    }
 }
