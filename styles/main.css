@@ -73,6 +73,10 @@
     align-items: center;
 }
 
+.hideme {
+    display: none;
+}
+
 /* main styles */
 main {
     max-width: 1140px;
@@ -302,4 +306,16 @@ footer textarea {
 
 footer textarea {
     height: 180px;
+}
+
+
+
+/* --------------- RESPONSOVE 576PX --------------- */
+@media screen and (max-width: 576px) {
+    
+}
+
+/* --------------- RESPONSOVE 992PX --------------- */
+@media screen and (min-width: 576px) and (max-width: 992) {
+    
 }
